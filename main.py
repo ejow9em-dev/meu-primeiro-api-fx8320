@@ -8,7 +8,7 @@ def home():
 @app.get("/sobre")
 def sobre():
     return {
-        "nome": "Seu nome aqui",
+        "nome": "Eric",
         "objetivo": "Vaga remota backend",
         "stack": ["Python", "FastAPI"],
         "pc": "FX 8320"
